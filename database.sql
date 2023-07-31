@@ -210,7 +210,3 @@ where hp.MaHP in (1, 2, 3)
 group by sv.MaSV, sv.HoTen
 having COUNT(distinct d.MaHP) >= 3;
 
-
-
-
-
